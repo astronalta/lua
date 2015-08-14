@@ -114,6 +114,7 @@
     <backlight devicemodel="Logitech.Gaming.Keyboard.G910">
       <lightingsetting><![CDATA[{"lightingEffects":{"Command":{"background_color":"#000000","foreground_color":"#0064ff","show_command_color":true}}}]]></lightingsetting>
     </backlight>
+    <!-- Scrip starts here-->
     <script>function OnEvent(event, arg)
 	--OutputLogMessage("event = %s, arg = %s\n", event, arg)
 	if event == "MOUSE_BUTTON_PRESSED" and arg == 4 then -- arg is the mouse button number pressed
